@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hiker</title>
+  <meta name="description" content="Hiker: avaliações de destinos e registro de trilhas feitas por viajantes reais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #2c2b2c;
+      --surface: #3a393a;
+      --text: #ffffff;
+      --muted: #c9c8c9;
+      --accent: #facc15;
+      --border: rgba(255, 255, 255, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Amiko', system-ui, sans-serif;
+      line-height: 1.6;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px 32px; }
+    h1 { font-size: 2.5rem; margin: 0 0 8px; color: var(--accent); }
+    .lead { font-size: 1.15rem; color: var(--muted); margin: 0 0 40px; }
+    h2 { font-size: 1.2rem; margin: 0 0 4px; }
+    .features { display: grid; gap: 12px; margin-bottom: 40px; }
+    .feature {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .feature p { margin: 0; color: var(--muted); }
+    a { color: var(--accent); }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Hiker</h1>
+    <p class="lead">
+      Avaliações de destinos de viagem e registro de trilhas, feitos por viajantes reais e com
+      reputação de quem avalia.
+    </p>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Avalie lugares</h2>
+        <p>Dê nota, conte como foi, adicione fotos e marcações para ajudar outros viajantes.</p>
+      </div>
+      <div class="feature">
+        <h2>Encontre destinos</h2>
+        <p>Busque parques, trilhas e cidades e veja a nota média e as avaliações de cada lugar.</p>
+      </div>
+      <div class="feature">
+        <h2>Registre suas trilhas</h2>
+        <p>Grave o percurso, a distância, o tempo e os passos, e compartilhe se quiser.</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Hiker é um projeto acadêmico desenvolvido por alunos da Fatec.
+        <br>
+        <a href="privacidade.html">Política de privacidade</a>
+        · Contato: <a href="mailto:hikerapp.dsm@gmail.com">hikerapp.dsm@gmail.com</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
